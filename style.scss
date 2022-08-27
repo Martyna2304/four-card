@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import 'config';
+@import 'cards';
+@import 'mobile';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  max-width: 1440px;
+  background-color: $bg-color;
+  font-family: $font-stack
+}
+
+.container {
+  width: 80%;
+  margin: 4rem auto;
+
+  .hero {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title, .subtitle {
+    color: $primary-color;
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-weight: 200;
+  }
+
+  .subtitle {
+    font-weight: 600;
+  }
+
+  .description, .card-text {
+    color: $secondary-color;
+  }
+
+  .description {
+    font-weight: 400;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
+}
+
+
+
+
+
